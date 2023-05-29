@@ -61,7 +61,9 @@ void searchStudent() {
     scanf("%d", &searchId);
 
     for (int i = 0; i < numStudents; i++) {
+        
         if (students[i].id == searchId) {
+            
             printf("Student found:\n");
             printf("ID: %d\n", students[i].id);
             printf("Name: %s\n", students[i].name);
@@ -77,6 +79,7 @@ void searchStudent() {
 }
 
 int main() {
+    
     int choice;
 
     do {
