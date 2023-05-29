@@ -10,11 +10,14 @@ struct Student {
 };
 
 struct Student students[MAX_STUDENTS];
+
 int numStudents = 0;
 
 void addStudent() {
     if (numStudents >= MAX_STUDENTS) {
+        
         printf("Maximum number of students reached.\n");
+        
         return;
     }
 
