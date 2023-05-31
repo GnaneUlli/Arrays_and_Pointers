@@ -14,26 +14,35 @@ void addMatrices(int matrix1[][3], int matrix2[][3], int result[][3]);
 
 int main() {
     int matrix1[3][3];
+    
     int matrix2[3][3];
+    
     int result[3][3];
 
     printf("Enter elements for Matrix 1:\n");
+    
     readMatrix(matrix1);
 
     printf("Enter elements for Matrix 2:\n");
+    
     readMatrix(matrix2);
 
     printf("\nMatrix 1:\n");
+    
     displayMatrix(matrix1);
 
     printf("\nMatrix 2:\n");
+    
     displayMatrix(matrix2);
 
     int max = findMax(matrix1);
+    
     printf("\nMaximum value in Matrix 1: %d\n", max);
 
     multiplyByTwo(matrix2);
+    
     printf("\nMatrix 2 after multiplying by two:\n");
+    
     displayMatrix(matrix2);
 
     printf("\nSum of Matrix 1 and Matrix 2:\n");
