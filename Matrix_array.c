@@ -19,11 +19,11 @@ int main() {
     
     int result[3][3];
 
-    printf("Enter elements for Matrix 1:\n");
+    printf("Enter elements for Matrix-1:\n");
     
     readMatrix(matrix1);
 
-    printf("Enter elements for Matrix 2:\n");
+    printf("Enter elements for Matrix-2:\n");
     
     readMatrix(matrix2);
 
