@@ -37,15 +37,15 @@ int main() {
 
     int max = findMax(matrix1);
     
-    printf("\nMaximum value in Matrix 1: %d\n", max);
+    printf("\nMaximum value in Matrix-1: %d\n", max);
 
     multiplyByTwo(matrix2);
     
-    printf("\nMatrix 2 after multiplying by two:\n");
+    printf("\nMatrix-2 after multiplying by two:\n");
     
     displayMatrix(matrix2);
 
-    printf("\nSum of Matrix 1 and Matrix 2:\n");
+    printf("\nSum of Matrix-1 and Matrix-2:\n");
     addMatrices(matrix1, matrix2, result);
     displayMatrix(result);
 
