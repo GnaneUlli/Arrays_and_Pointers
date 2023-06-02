@@ -13,7 +13,7 @@ int main() {
 
     int size;
 
-    printf("Enter the size of the array: ");
+    printf("Enter the size of an array: ");
 
     scanf("%d", &size);
 
