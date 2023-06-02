@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Function prototypes
 void displayArray(int* arr, int size);
 
 int findMax(int* arr, int size);
