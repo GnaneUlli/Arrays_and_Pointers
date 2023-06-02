@@ -27,11 +27,11 @@ int main() {
     
     readMatrix(matrix2);
 
-    printf("\nMatrix 1:\n");
+    printf("\nMatrix-1:\n");
     
     displayMatrix(matrix1);
 
-    printf("\nMatrix 2:\n");
+    printf("\nMatrix-2:\n");
     
     displayMatrix(matrix2);
 
