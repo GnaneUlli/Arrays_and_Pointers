@@ -107,3 +107,33 @@ void reverseArray(int* arr, int size) {
     }
 }
 
+//Pointer arry declaration
+
+int arr[10]={1,2,3,4,5,6,7,8,9,10}
+
+int *p;
+
+p=arr//valid beacause arr consists of adress but int a =1;p=a not valid
+    
+/* *p holds value o arr and p holds adrees of arr and &arr holds adress of arr and &p holds the adress of p */
+
+//p++ valid
+//but arr++ not valid
+//p=arr[2] not valid
+
+//*(a+i) valid
+//*(q+i) valid
+//*(i+a)=a[i] same
+
+Examle :  
+
+for(int i=0; i<size;i++){
+    
+    printf("%d",arr[i],i[arr],i[p],*(p+i),*(arr+i));
+    
+}// All will give you the same ouput
+
+
+ 
+
+
