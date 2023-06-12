@@ -56,6 +56,10 @@ int main(){
   
   
 }
+
+//If you have to insert any element without increasing the array size and not moving the poition simply 
+//apply the logic a[size]=a[pos-1],arr[pos-1]=num.
+
   
   
   
