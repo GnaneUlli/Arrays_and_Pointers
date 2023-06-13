@@ -47,4 +47,4 @@ int main(){
     
   }
   
-  //if you want to delete the last element just do size--
+  //if you want to delete the last element or deleting from last just do size--
