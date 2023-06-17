@@ -123,8 +123,8 @@ p=arr//valid beacause arr consists of adress but int a =1;p=a not valid
 
 //*(a+i) valid
 //*(q+i) valid
-//*(i+a)=a[i] same
-
+//*(i+a)==a[i] same
+//i.e i[a]==a[i]
 Examle :  
 
 for(int i=0; i<size;i++){
