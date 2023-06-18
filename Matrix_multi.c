@@ -49,14 +49,17 @@ int main() {
     }
 
     printf("Enter the elements of matrix 1:\n");
+    
     read(matrix1, rows1, columns1);
 
     printf("Enter the elements of matrix 2:\n");
+    
     read(matrix2, rows2, columns2);
 
     multiplyMatrices(matrix1, matrix2, result, rows1, columns1, columns2);
 
     printf("Resultant matrix:\n");
+    
     display(result, rows1, columns2);
 
     return 0;
