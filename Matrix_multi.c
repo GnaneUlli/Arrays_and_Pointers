@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #define MAX_SIZE 10
 
 void read(int matrix[MAX_SIZE][MAX_SIZE], int rows, int columns) {
