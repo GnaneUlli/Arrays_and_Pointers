@@ -3,7 +3,6 @@
 #define MAX_SIZE 10
 
 void read(int matrix[MAX_SIZE][MAX_SIZE], int rows, int columns) {
-    
     printf("Enter the elements of the matrix:\n");
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < columns; j++) {
